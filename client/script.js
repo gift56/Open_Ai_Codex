@@ -26,6 +26,8 @@ const typeText = (element, text) => {
     if (index < text.length) {
       element.innerHTML += text.chartAt(index);
       index++;
+    } else {
+      clearInterval(interval);
     }
   }, 20);
 };
