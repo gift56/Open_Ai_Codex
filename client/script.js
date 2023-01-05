@@ -34,5 +34,5 @@ const typeText = (element, text) => {
 
 // Generating unique id
 const generateUniqueId = () => {
-
+  const timeStamp = Date.now();
 };
