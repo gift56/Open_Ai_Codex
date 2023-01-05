@@ -8,4 +8,8 @@ let loadInterval;
 
 const loader = (element) => {
   element.textContent = "";
+
+  loadInterval=setInterval(() => {
+    
+  }, interval);
 };
