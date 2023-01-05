@@ -44,6 +44,6 @@ const generateUniqueId = () => {
 // ChatStripe between user and robot
 const chatStripe = (isAi, value, uniqueId) => {
   return `
-     <div></div>
+     <div class=""></div>
   `;
 };
