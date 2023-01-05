@@ -38,5 +38,5 @@ const generateUniqueId = () => {
   const randomNumber = Math.random();
   const hexadecimalString = randomNumber.toString(16);
 
-  return ``
+  return `id-${timeStamp}-${hexadecimalString}`
 };
