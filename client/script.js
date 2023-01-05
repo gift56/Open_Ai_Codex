@@ -32,3 +32,4 @@ const typeText = (element, text) => {
   }, 20);
 };
 
+const generateUniqueId = () => {};
