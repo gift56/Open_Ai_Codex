@@ -4,7 +4,6 @@ import user from "./assets/user.svg";
 const form = document.querySelector("form");
 const chatContainer = document.querySelector("#chat_container");
 
-
 // Loading functionality
 let loadInterval;
 
@@ -19,7 +18,6 @@ const loader = (element) => {
   }, 300);
 };
 
-
 // Typing fuctionality
 
 const typeText = (element, text) => {
@@ -27,6 +25,7 @@ const typeText = (element, text) => {
   let interval = setInterval(() => {
     if (index < text.length) {
       element.innerHTML += text.chartAt(index);
+      index++;
     }
   }, 20);
 };
