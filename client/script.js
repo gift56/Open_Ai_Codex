@@ -17,6 +17,9 @@ const loader = (element) => {
   }, 300);
 };
 
+
+// Typing fuctionality
+
 const typeText = (element, text) => {
   let index = 0;
   let interval = setInterval(() => {
