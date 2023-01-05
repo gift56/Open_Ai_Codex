@@ -36,4 +36,5 @@ const typeText = (element, text) => {
 const generateUniqueId = () => {
   const timeStamp = Date.now();
   const randomNumber = Math.random();
+  const hexadecimalString=
 };
