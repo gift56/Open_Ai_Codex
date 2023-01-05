@@ -19,7 +19,7 @@ const loader = (element) => {
 
 const typeText = (element, text) => {
   let index = 0;
-  let interval=setInterval(() => {
-    
-  }, 300);
+  let interval = setInterval(() => {
+
+  }, 20);
 };
