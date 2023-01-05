@@ -17,6 +17,6 @@ const loader = (element) => {
   }, 300);
 };
 
-const typeText=()=>{
+const typeText = () => {
   
-}
+};
