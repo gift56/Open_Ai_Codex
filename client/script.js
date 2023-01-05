@@ -42,3 +42,4 @@ const generateUniqueId = () => {
 };
 
 // ChatStripe between user and robot
+const chatStripe = () => {};
