@@ -7,5 +7,5 @@ const chatContainer = document.querySelector("#chat_container");
 let loadInterval;
 
 const loader = (element) => {
-  
+  element.textContent = "";
 };
