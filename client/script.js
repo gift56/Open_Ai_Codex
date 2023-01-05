@@ -5,3 +5,8 @@ const form = document.querySelector("form");
 const chatContainer = document.querySelector("#chat_container");
 
 let loadInterval;
+
+
+const loader=()=>{
+  
+}
