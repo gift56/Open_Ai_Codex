@@ -16,3 +16,7 @@ const loader = (element) => {
     }
   }, 300);
 };
+
+const typeText=()=>{
+  
+}
