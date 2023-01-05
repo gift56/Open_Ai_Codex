@@ -35,5 +35,5 @@ const typeText = (element, text) => {
 // Generating unique id
 const generateUniqueId = () => {
   const timeStamp = Date.now();
-  const randomNumber=Math.floor()
+  const randomNumber = Math.random();
 };
