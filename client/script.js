@@ -40,3 +40,5 @@ const generateUniqueId = () => {
 
   return `id-${timeStamp}-${hexadecimalString}`;
 };
+
+// ChatStripe between user and robot
