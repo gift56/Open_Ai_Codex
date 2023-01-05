@@ -31,3 +31,4 @@ const typeText = (element, text) => {
     }
   }, 20);
 };
+
