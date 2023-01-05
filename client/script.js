@@ -9,7 +9,7 @@ let loadInterval;
 const loader = (element) => {
   element.textContent = "";
 
-  loadInterval=setInterval(() => {
+  loadInterval = setInterval(() => {
     
-  }, interval);
+  }, 300);
 };
