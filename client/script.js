@@ -21,5 +21,5 @@ const typeText = (element, text) => {
   let index = 0;
   let interval=setInterval(() => {
     
-  }, interval);
+  }, 300);
 };
