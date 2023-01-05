@@ -4,6 +4,8 @@ import user from "./assets/user.svg";
 const form = document.querySelector("form");
 const chatContainer = document.querySelector("#chat_container");
 
+
+// Loading functionality
 let loadInterval;
 
 const loader = (element) => {
