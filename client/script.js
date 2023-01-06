@@ -95,6 +95,9 @@ const handleSubmit = async (e) => {
     const data = await response.json();
     const parsedData = data.bot.trim();
     typeText(messageDiv, parsedData);
+  } else {
+    const err = await response.text();
+
   }
 };
 
