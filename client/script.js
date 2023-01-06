@@ -46,9 +46,9 @@ const chatStripe = (isAi, value, uniqueId) => {
   return `
      <div class="wrapper ${isAi && "ai"}">
        <div class="chat">
-       <div class="profile">
-       
-       </div>
+          <div class="profile">
+              <img src="assets/send.svg">
+          </div>
        </div>
      </div>
   `;
