@@ -91,8 +91,8 @@ const handleSubmit = async (e) => {
 
   clearInterval(loadInterval);
   messageDiv.innerHTML = "";
-  if(response.ok){
-    
+  if (response.ok) {
+    const data = await response.json();
   }
 };
 
