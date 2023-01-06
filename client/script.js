@@ -67,4 +67,6 @@ const handleSubmit = async (e) => {
 
   // clearing form
   form.reset();
+
+  // robot chatStripe
 };
