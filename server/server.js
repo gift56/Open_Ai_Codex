@@ -4,3 +4,5 @@ import cors from "cors";
 import { Configuration, OpenAIApi } from "openai";
 
 dotenv.config();
+
+const configuration=new Configuration()
