@@ -84,7 +84,9 @@ const handleSubmit = async (e) => {
     headers: {
       "Content-Type": "application/json",
     },
-    body: JSON.stringify({}),
+    body: JSON.stringify({
+      prompt: data.get("prompt"),
+    }),
   });
 };
 
