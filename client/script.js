@@ -57,4 +57,6 @@ const chatStripe = (isAi, value, uniqueId) => {
   `;
 };
 
-const handleSubmit = async () => {};
+const handleSubmit = async (e) => {
+  
+};
