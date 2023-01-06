@@ -45,7 +45,11 @@ const generateUniqueId = () => {
 const chatStripe = (isAi, value, uniqueId) => {
   return `
      <div class="wrapper ${isAi && "ai"}">
-       <div class="chat"></div>
+       <div class="chat">
+       <div class="profile">
+       
+       </div>
+       </div>
      </div>
   `;
 };
