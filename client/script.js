@@ -56,3 +56,7 @@ const chatStripe = (isAi, value, uniqueId) => {
      </div>
   `;
 };
+
+const handleSubmit=()=>{
+  
+}
