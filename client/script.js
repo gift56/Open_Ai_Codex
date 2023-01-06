@@ -50,7 +50,7 @@ const chatStripe = (isAi, value, uniqueId) => {
               <img src="${isAi ? bot : user}" alt="${isAi ? "bot" : "user"}" />
           </div>
           <div class="message" id=${uniqueId}>
-          
+          ${value}
           </div>
        </div>
      </div>
