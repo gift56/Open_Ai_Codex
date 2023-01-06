@@ -78,8 +78,8 @@ const handleSubmit = async (e) => {
 
   loader(messageDiv);
 
-  // Fetching data from the server
-  
+  // Fetching data from the server -> bot response
+
 };
 
 form.addEventListener("submit", handleSubmit);
