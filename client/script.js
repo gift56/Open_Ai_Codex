@@ -47,7 +47,7 @@ const chatStripe = (isAi, value, uniqueId) => {
      <div class="wrapper ${isAi && "ai"}">
        <div class="chat">
           <div class="profile">
-              <img src="${isAi ? bot : user}" />
+              <img src="${isAi ? bot : user}" alt="${isAi ? "bot" : "user"}" />
           </div>
        </div>
      </div>
