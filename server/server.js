@@ -21,4 +21,4 @@ app.get("/", async (req, res) => {
   });
 });
 
-app.post()
+app.post("/", async (req, res) => {});
