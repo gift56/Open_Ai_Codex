@@ -90,6 +90,7 @@ const handleSubmit = async (e) => {
   });
 
   clearInterval(loadInterval);
+  messageDiv.innerHTML = "";
 };
 
 form.addEventListener("submit", handleSubmit);
