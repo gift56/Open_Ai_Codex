@@ -64,4 +64,7 @@ const handleSubmit = async (e) => {
 
   // user ChatStripe
   chatContainer.innerHTML += chatStripe(false, data.get("prompt"));
+
+  // clearing form
+  form.reset();
 };
