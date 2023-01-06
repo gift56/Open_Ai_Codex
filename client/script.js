@@ -91,7 +91,9 @@ const handleSubmit = async (e) => {
 
   clearInterval(loadInterval);
   messageDiv.innerHTML = "";
-  
+  if(response.ok){
+    
+  }
 };
 
 form.addEventListener("submit", handleSubmit);
