@@ -1,6 +1,6 @@
 ### OPEN_AI_CODEX
 
-### Live demo: <a href="https://open-ai-codex-rho.vercel.app/">Click me/</a> to Visit Finished project.
+### Live demo: <a href="https://open-ai-codex-rho.vercel.app/">Click me</a> to Visit Finished project.
 
 This is a simple openaicodex project built with Node.js and Express that uses [Natural language to OpenAI API](https://beta.openai.com/playground/p/default-openai-api?model=text-davinci-003) to generate Code Anwsers by inputing Natural language.
 
