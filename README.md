@@ -2,7 +2,7 @@
 
 This is a simple openaicodex project built with Node.js and Express that uses [Natural language to OpenAI API](https://beta.openai.com/playground/p/default-openai-api?model=text-davinci-003) to generate Code Anwsers by inputing Natural language.
 
-<img src="public/img/Screen.png" width="500">
+<img src="public/screen.png" width="500">
 
 ## Usage
 
