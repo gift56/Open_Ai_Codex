@@ -6,9 +6,7 @@ This is a simple openaicodex project built with Node.js and Express that uses [N
 
 ## Usage
 
-Rename the `example.env` file to `.env`.
-
-Generate an API KEY at [OpenAI](https://beta.openai.com/) and add it to the `.env` file.
+Generate an API KEY at [OpenAI](https://beta.openai.com/) and add it to the `.env` file to the server folder.
 
 Install the dependencies
 
@@ -19,9 +17,7 @@ npm install
 Run server
 
 ```bash
-npm run dev
+npm run server
 ```
 
 Visit `http://localhost:5000` in your browser.
-
-The endpoint is at `POST http://localhost:5000/openai/generateimage`.
